@@ -1,0 +1,23 @@
+PODS:
+  - CommonCryptoModule (1.0.2)
+  - WolfCore (2.1.2):
+    - CommonCryptoModule
+  - WolfMetal (0.1.0):
+    - WolfCore (~> 2.1)
+
+DEPENDENCIES:
+  - WolfCore (~> 2.1)
+  - WolfMetal (from `../`)
+
+EXTERNAL SOURCES:
+  WolfMetal:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CommonCryptoModule: 63a68b57abed79655b3a01011419bf037a05b0a0
+  WolfCore: ab5bf73f71b6a89596ee221546f3191551e3c1c0
+  WolfMetal: 7701befcb062607f7391cbdca0197325daf35cd2
+
+PODFILE CHECKSUM: 6c876a3c0e45182d21ae17079480b2e610c5dee6
+
+COCOAPODS: 1.4.0

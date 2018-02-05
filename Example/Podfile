@@ -1,11 +1,13 @@
 use_frameworks!
 
+platform :ios, '11.2'
+project 'WolfMetal.xcodeproj'
+
 target 'WolfMetal_Example' do
-  pod 'WolfMetal', :path => '../'
+    pod 'WolfMetal', :path => '../'
+    pod 'WolfCore', '~> 2.1'
 
-  target 'WolfMetal_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    target 'WolfMetal_Tests' do
+        inherit! :search_paths
+    end
 end
