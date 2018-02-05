@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Utilities and conveniences for Metal for iOS, macOS, and tvOS.
+Utilities and conveniences for Metal for iOS, macOS, and tvOS. Currently the main thing included is AngularGradientShader.
                        DESC
 
   s.homepage         = 'https://github.com/wolfmcnally/WolfMetal'
@@ -29,8 +29,6 @@ Utilities and conveniences for Metal for iOS, macOS, and tvOS.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '4.0'
-
-  s.ios.deployment_target = '8.0'
 
   s.source_files = 'WolfMetal/Classes/**/*'
 
