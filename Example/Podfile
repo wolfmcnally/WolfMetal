@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WolfMetal_Example' do
+  pod 'WolfMetal', :path => '../'
+
+  target 'WolfMetal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
