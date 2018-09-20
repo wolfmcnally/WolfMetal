@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EBA4E6779A1123A9441407A /* Pods_WolfMetal_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE4A2B671E0CBD7AB1517F5 /* Pods_WolfMetal_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		E92F8356964C3ED285936BE7 /* Pods_WolfMetal_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722E490555D1690822C8D6C3 /* Pods_WolfMetal_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CB6810F08D9666E93C67A48 /* Pods-WolfMetal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfMetal_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		10FFA4B04599FCEFB9A6B6C1 /* Pods-WolfMetal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfMetal_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4242E9EA244FCF80513AFF78 /* WolfMetal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WolfMetal.podspec; path = ../WolfMetal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A5E8B5473BC1BF271E4F93F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5BE4A2B671E0CBD7AB1517F5 /* Pods_WolfMetal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WolfMetal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WolfMetal_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WolfMetal_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,10 +27,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		722E490555D1690822C8D6C3 /* Pods_WolfMetal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WolfMetal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B82425C5F722D0A1243A079 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7BB5E0135DB4C7C3C80A4145 /* Pods_WolfMetal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WolfMetal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B738843071E01FFE90D54E3 /* Pods-WolfMetal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfMetal_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WolfMetal_Tests/Pods-WolfMetal_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A11769B333D5E258ADF2D936 /* Pods-WolfMetal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfMetal_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WolfMetal_Tests/Pods-WolfMetal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		85FCFCCEA1C40286EA6B08AB /* Pods-WolfMetal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfMetal_Example.debug.xcconfig"; path = "Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E68DAFBD5EC4CCB18E2BDACC /* Pods-WolfMetal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfMetal_Example.release.xcconfig"; path = "Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +38,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EBA4E6779A1123A9441407A /* Pods_WolfMetal_Example.framework in Frameworks */,
+				E92F8356964C3ED285936BE7 /* Pods_WolfMetal_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57AE94B5285125DD2C2F1752 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85FCFCCEA1C40286EA6B08AB /* Pods-WolfMetal_Example.debug.xcconfig */,
+				E68DAFBD5EC4CCB18E2BDACC /* Pods-WolfMetal_Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +62,8 @@
 				607FACD21AFB9204008FA782 /* Example for WolfMetal */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				AC5658201EDB73992F470C2C /* Pods */,
-				D01BAD2DEB117A7E252392BC /* Frameworks */,
+				57AE94B5285125DD2C2F1752 /* Pods */,
+				DBBC475EF6D6AD81F2E49A86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,22 +124,10 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		AC5658201EDB73992F470C2C /* Pods */ = {
+		DBBC475EF6D6AD81F2E49A86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CB6810F08D9666E93C67A48 /* Pods-WolfMetal_Example.debug.xcconfig */,
-				10FFA4B04599FCEFB9A6B6C1 /* Pods-WolfMetal_Example.release.xcconfig */,
-				A11769B333D5E258ADF2D936 /* Pods-WolfMetal_Tests.debug.xcconfig */,
-				9B738843071E01FFE90D54E3 /* Pods-WolfMetal_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D01BAD2DEB117A7E252392BC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5BE4A2B671E0CBD7AB1517F5 /* Pods_WolfMetal_Example.framework */,
-				7BB5E0135DB4C7C3C80A4145 /* Pods_WolfMetal_Tests.framework */,
+				722E490555D1690822C8D6C3 /* Pods_WolfMetal_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,12 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WolfMetal_Example" */;
 			buildPhases = (
-				A856C3EDF536CB8E650DFC16 /* [CP] Check Pods Manifest.lock */,
+				8887BD1EB2E6E725568594F6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				90FAFFC8EBB7AA50F0F73534 /* [CP] Embed Pods Frameworks */,
-				722BDC2F0D243A4E9D6E905F /* [CP] Copy Pods Resources */,
+				5504CE12BAFD4E90E13D38C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,53 +203,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		722BDC2F0D243A4E9D6E905F /* [CP] Copy Pods Resources */ = {
+		5504CE12BAFD4E90E13D38C5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90FAFFC8EBB7AA50F0F73534 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CommonCryptoModule/CommonCryptoModule.framework",
-				"${BUILT_PRODUCTS_DIR}/WolfCore/WolfCore.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ExtensibleEnumeratedName/ExtensibleEnumeratedName.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfAnimation/WolfAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfApp/WolfApp.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfColor/WolfColor.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfConcurrency/WolfConcurrency.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfFoundation/WolfFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfGeometry/WolfGeometry.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfImage/WolfImage.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfLocale/WolfLocale.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfLog/WolfLog.framework",
 				"${BUILT_PRODUCTS_DIR}/WolfMetal/WolfMetal.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfNumerics/WolfNumerics.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfOSBridge/WolfOSBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfPipe/WolfPipe.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfStrings/WolfStrings.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonCryptoModule.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExtensibleEnumeratedName.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfApp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfConcurrency.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfGeometry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfLocale.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfLog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfMetal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfNumerics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfOSBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfPipe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfStrings.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A856C3EDF536CB8E650DFC16 /* [CP] Check Pods Manifest.lock */ = {
+		8887BD1EB2E6E725568594F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-WolfMetal_Example-checkManifestLockResult.txt",
 			);
@@ -399,7 +410,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CB6810F08D9666E93C67A48 /* Pods-WolfMetal_Example.debug.xcconfig */;
+			baseConfigurationReference = 85FCFCCEA1C40286EA6B08AB /* Pods-WolfMetal_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 92TUA8H52D;
@@ -416,7 +427,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10FFA4B04599FCEFB9A6B6C1 /* Pods-WolfMetal_Example.release.xcconfig */;
+			baseConfigurationReference = E68DAFBD5EC4CCB18E2BDACC /* Pods-WolfMetal_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 92TUA8H52D;

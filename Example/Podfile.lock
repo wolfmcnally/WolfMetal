@@ -1,23 +1,102 @@
 PODS:
-  - CommonCryptoModule (1.0.2)
-  - WolfCore (2.1.2):
-    - CommonCryptoModule
+  - ExtensibleEnumeratedName (1.0.1)
+  - WolfAnimation (1.0):
+    - WolfConcurrency
+    - WolfFoundation
+    - WolfLog
+  - WolfApp (1.0):
+    - WolfAnimation
+    - WolfConcurrency
+    - WolfFoundation
+    - WolfLocale
+    - WolfOSBridge
+  - WolfColor (1.0):
+    - ExtensibleEnumeratedName
+    - WolfNumerics
+    - WolfPipe
+    - WolfStrings
+  - WolfConcurrency (1.0):
+    - WolfFoundation
+    - WolfLog
+    - WolfNumerics
+  - WolfFoundation (1.0):
+    - WolfNumerics
+    - WolfPipe
+    - WolfStrings
+  - WolfGeometry (1.0):
+    - ExtensibleEnumeratedName
+    - WolfFoundation
+    - WolfNumerics
+    - WolfStrings
+  - WolfImage (1.0):
+    - ExtensibleEnumeratedName
+    - WolfColor
+    - WolfFoundation
+    - WolfGeometry
+    - WolfNumerics
+    - WolfPipe
+    - WolfStrings
+  - WolfLocale (1.0.1):
+    - ExtensibleEnumeratedName
+    - WolfLog
+    - WolfStrings
+  - WolfLog (1.0.1):
+    - ExtensibleEnumeratedName
+    - WolfNumerics
+    - WolfStrings
   - WolfMetal (0.1.0):
-    - WolfCore (~> 2.1)
+    - WolfApp
+    - WolfColor
+    - WolfImage
+  - WolfNumerics (1.0.1)
+  - WolfOSBridge (1.0)
+  - WolfPipe (1.0.1)
+  - WolfStrings (1.0.1):
+    - ExtensibleEnumeratedName
+    - WolfNumerics
+    - WolfPipe
 
 DEPENDENCIES:
-  - WolfCore (~> 2.1)
   - WolfMetal (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ExtensibleEnumeratedName
+    - WolfAnimation
+    - WolfApp
+    - WolfColor
+    - WolfConcurrency
+    - WolfFoundation
+    - WolfGeometry
+    - WolfImage
+    - WolfLocale
+    - WolfLog
+    - WolfNumerics
+    - WolfOSBridge
+    - WolfPipe
+    - WolfStrings
 
 EXTERNAL SOURCES:
   WolfMetal:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CommonCryptoModule: 63a68b57abed79655b3a01011419bf037a05b0a0
-  WolfCore: ab5bf73f71b6a89596ee221546f3191551e3c1c0
-  WolfMetal: 7701befcb062607f7391cbdca0197325daf35cd2
+  ExtensibleEnumeratedName: 70c35288c7e34eff64b4b1da8b0c6e993013738b
+  WolfAnimation: 2e3e73b55af618bfa62601bd7dc64831386af076
+  WolfApp: 32c36657480ce514cff3a493be65a958201f77e0
+  WolfColor: 7c3d1783be76e913f5a5202f354617e0c64bce43
+  WolfConcurrency: 6441a2ee3487398b02f78fc87b52659972cbbbb8
+  WolfFoundation: 90959f037de362da543adfdbe347f79c28e7f0db
+  WolfGeometry: ea6c54d93303363f61930d762617ff197a0c96aa
+  WolfImage: cf2b6043bc00e8a20961e8b8cdff6e0610ef5d20
+  WolfLocale: b70f1b375fa37a70f9ec4152db3f656e0dec12e6
+  WolfLog: e6e60ea7593e9fb1962d319a6bc190045f4f1e6e
+  WolfMetal: 4c96ac9e5299aa65d6da0595e162cbfefd72b58a
+  WolfNumerics: 47d911caaf5350fc838b638ca47a5427b676d275
+  WolfOSBridge: 238f042a7978e522c9ec0644dca85248d7e30148
+  WolfPipe: 7ddf803ae6bc9d42d34120bcce43d25940e3c791
+  WolfStrings: 0691ee5c7aae7c040a6552ca97ddfa510ecccf88
 
-PODFILE CHECKSUM: 6c876a3c0e45182d21ae17079480b2e610c5dee6
+PODFILE CHECKSUM: 508fb26722563c5d5b5fabb2efe139dd054c7891
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.0.beta.1
