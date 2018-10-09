@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WolfMetal'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Utilities and conveniences for Metal for iOS, macOS, and tvOS.'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Utilities and conveniences for Metal for iOS, macOS, and tvOS. Currently the mai
 
   s.source_files = 'WolfMetal/Classes/**/*'
 
-  s.ios.deployment_target = '11.2'
+  s.ios.deployment_target = '9.3'
   s.macos.deployment_target = '10.13'
   s.tvos.deployment_target = '11.0'
 
