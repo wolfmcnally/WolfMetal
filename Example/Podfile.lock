@@ -4,26 +4,26 @@ PODS:
     - WolfConcurrency
     - WolfFoundation
     - WolfLog
-  - WolfApp (1.0.2):
+  - WolfApp (1.0.3):
     - WolfAnimation
     - WolfConcurrency
     - WolfFoundation
     - WolfLocale
     - WolfOSBridge
-  - WolfColor (1.0.2):
+  - WolfColor (1.0.4):
     - ExtensibleEnumeratedName
     - WolfNumerics
     - WolfPipe
     - WolfStrings
-  - WolfConcurrency (1.1):
+  - WolfConcurrency (1.1.1):
     - WolfFoundation
     - WolfLog
     - WolfNumerics
-  - WolfFoundation (1.0.2):
+  - WolfFoundation (1.0.3):
     - WolfNumerics
     - WolfPipe
     - WolfStrings
-  - WolfGeometry (1.0.1):
+  - WolfGeometry (2.0.1):
     - ExtensibleEnumeratedName
     - WolfFoundation
     - WolfNumerics
@@ -48,10 +48,10 @@ PODS:
     - WolfApp
     - WolfColor
     - WolfImage
-  - WolfNumerics (1.0.3)
+  - WolfNumerics (2.0.1)
   - WolfOSBridge (1.0.1)
-  - WolfPipe (1.0.4)
-  - WolfStrings (1.0.3):
+  - WolfPipe (1.0.5)
+  - WolfStrings (1.0.4):
     - ExtensibleEnumeratedName
     - WolfNumerics
     - WolfPipe
@@ -83,19 +83,19 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   ExtensibleEnumeratedName: c6caeb662f79105e7229a613f9043e8a7e15e642
   WolfAnimation: 357e094c886389a6f805e5330a11aa941abfc5e3
-  WolfApp: fb1fac6320f0db64e590526917ad85f546d2e0c8
-  WolfColor: 304d560b746f03905986c8650294c7b48428fdd5
-  WolfConcurrency: 2c42fbedf68113f114c04eaddcd946666880686c
-  WolfFoundation: 3a8d73db23cb6ce562ec06a98e1208afd53c63db
-  WolfGeometry: dae4dac7c93d74a0726b12b806015bf90ee732bd
+  WolfApp: c9ec6d2f3b24d74f25bf2eed7631417a36ad6cdf
+  WolfColor: a7f92dd96db411da054f830aaee2ac004c0ee3f9
+  WolfConcurrency: acb773dfc18e0fe7e003284cdf1ee57ab6373542
+  WolfFoundation: a28fc1c415ddfa8d31d97f202628109a9573da0c
+  WolfGeometry: 0543df4ddc413df6c2fbbc1d3b9b3608cd99e008
   WolfImage: 05bcd47542da537ca59cff0e86414556ab4d685e
   WolfLocale: cc7921bc5d24c5e792603e7732c476385f969176
   WolfLog: 6329a08de6c099ca6ccea857127d9df2f74dfea3
   WolfMetal: 7e68568691d06bc7c9ec19fb3771cdba57744f12
-  WolfNumerics: aac52cdac131f4d54c9f09479156a5cf016ab62f
+  WolfNumerics: 486042c29ec5ee608de6cbcf8a524b7c347624ed
   WolfOSBridge: 6c3c6be3993a8c38db0dc2ab2d7fc9e98ec4938d
-  WolfPipe: 7ac686d6e3d4e960323c864c9e57a667cda7126c
-  WolfStrings: df8b7406fe1c7fcd6efa1cddf5882647477d0677
+  WolfPipe: 5cfa27c6a1e4e15db19aa7eb374e9a973a0805a7
+  WolfStrings: 75088362dcb4a65323b557dff7106c18a2203a45
 
 PODFILE CHECKSUM: 508fb26722563c5d5b5fabb2efe139dd054c7891
 
