@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WolfMetal'
-  s.version          = '0.1.3'
+  s.version          = '1.0.0'
   s.summary          = 'Utilities and conveniences for Metal for iOS, macOS, and tvOS.'
 
   s.description      = <<-DESC
@@ -12,7 +12,7 @@ Utilities and conveniences for Metal for iOS, macOS, and tvOS. Currently the mai
   s.author           = { 'wolfmcnally' => 'wolf@wolfmcnally.com' }
   s.source           = { :git => 'https://github.com/wolfmcnally/WolfMetal.git', :tag => s.version.to_s }
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.source_files = 'WolfMetal/Classes/**/*'
 

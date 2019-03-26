@@ -208,8 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WolfMetal_Example/Pods-WolfMetal_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ExtensibleEnumeratedName/ExtensibleEnumeratedName.framework",
@@ -227,10 +225,9 @@
 				"${BUILT_PRODUCTS_DIR}/WolfOSBridge/WolfOSBridge.framework",
 				"${BUILT_PRODUCTS_DIR}/WolfPipe/WolfPipe.framework",
 				"${BUILT_PRODUCTS_DIR}/WolfStrings/WolfStrings.framework",
+				"${BUILT_PRODUCTS_DIR}/WolfWith/WolfWith.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExtensibleEnumeratedName.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfAnimation.framework",
@@ -247,6 +244,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfOSBridge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfPipe.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfStrings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WolfWith.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
