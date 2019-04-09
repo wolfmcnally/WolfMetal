@@ -22,7 +22,6 @@ Utilities and conveniences for Metal for iOS, macOS, and tvOS. Currently the mai
 
   s.frameworks = 'Metal', 'CoreGraphics'
 
-  s.dependency 'WolfColor'
-  s.dependency 'WolfImage'
+  s.dependency 'WolfGraphics'
   s.dependency 'WolfApp'
 end

@@ -25,8 +25,7 @@
 import Metal
 import CoreGraphics
 import simd
-import WolfColor
-import WolfImage
+import WolfGraphics
 
 #if os(iOS) || os(tvOS)
     import UIKit
