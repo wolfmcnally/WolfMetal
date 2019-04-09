@@ -23,8 +23,20 @@
 //  SOFTWARE.
 
 import Foundation
-import WolfApp
 
-public class Framework {
-    public static var bundle: Bundle { return Bundle.findBundle(forClass: self) }
+extension Bundle {
+    /// Similar to Bundle.bundleForClass, except if aClass is nil (or omitted) the main bundle is returned
+    static func findBundle(forClass aClass: AnyClass? = nil) -> Bundle {
+        let bundle: Bundle
+        if let aClass = aClass {
+            bundle = Bundle(for: aClass)
+        } else {
+            bundle = Bundle.main
+        }
+        return bundle
+    }
+}
+
+class Framework {
+    static var bundle: Bundle { return Bundle.findBundle(forClass: self) }
 }

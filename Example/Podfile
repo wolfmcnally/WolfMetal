@@ -1,8 +1,0 @@
-use_frameworks!
-
-platform :ios, '11.2'
-project 'WolfMetal.xcodeproj'
-
-target 'WolfMetal_Example' do
-    pod 'WolfMetal', :path => '../'
-end
