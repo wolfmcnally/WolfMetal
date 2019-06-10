@@ -34,23 +34,23 @@ import WolfGraphics
 #endif
 
 public struct GradientElement {
-    public var color: float4
+    public var color: SIMD4<Float>
     public var frac: Float
     public var bias: Float
 
-    public init(color: float4, frac: Float, bias: Float = 0.5) {
+    public init(color: SIMD4<Float>, frac: Float, bias: Float = 0.5) {
         self.color = color
         self.frac = frac
         self.bias = bias
     }
 
     public init(color: Color, frac: Float, bias: Float = 0.5) {
-        self.init(color: float4(Float(color.red), Float(color.green), Float(color.blue), Float(color.alpha)), frac: frac, bias: bias)
+        self.init(color: SIMD4<Float>(Float(color.red), Float(color.green), Float(color.blue), Float(color.alpha)), frac: frac, bias: bias)
     }
 }
 
 struct AngularGradientShaderParams {
-    var center: float2
+    var center: SIMD2<Float>
     var initialAngle: Float
     var innerRadius: Float
     var outerRadius: Float
@@ -86,7 +86,7 @@ public class AngularGradientRenderer {
         let width = Int(size)
         let height = Int(size)
         let halfSize = Float(size) / 2
-        let center = float2(halfSize, halfSize)
+        let center = SIMD2<Float>(halfSize, halfSize)
 
         let elements = ContiguousArray(gradient)
         let elementsLength = MemoryLayout<GradientElement>.stride * elements.count

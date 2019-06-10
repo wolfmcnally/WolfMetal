@@ -1,0 +1,133 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ExtensibleEnumeratedName",
+        "repositoryURL": "https://github.com/wolfmcnally/ExtensibleEnumeratedName",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "5e3b27dc373149cc67826f007a471f173fd329b2",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfColor",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfColor",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "845de5fd812bd191d4919034f216e4c799260585",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfConcurrency",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfConcurrency",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "9a9ec03fe5407f21f42b521293594aaad60eb858",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfCore",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfCore",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "65a74eae41f571e670ff8d6ae6875195ca3dd369",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfFoundation",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfFoundation",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "e27d8cd221e5581977c7f7defacbc773a0254912",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfGeometry",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfGeometry",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "e69fa372581ba176e0af42aace8531b25c35084f",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfGraphics",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfGraphics",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "7eaca99976902cb02045aa9ae4739c1e77e8ef69",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfImage",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfImage",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "9cc6c1fc85c7162ea90ba1f48800fed20ca512f5",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfNesting",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfNesting",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "a3e402625d7a36d34cabbd608cd767cbacfa482a",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfNumerics",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfNumerics",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "794d2a761f0272c7bac62a5b6cf15c22875b5fd3",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfOSBridge",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfOSBridge",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "0c892d9e3e0944427be63d2703607e7889afaa05",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfPipe",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfPipe",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "4517feb05ffe85ff9e5cf697829aa8702c8d9c37",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfStrings",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfStrings",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "9ff55ae0a942fd6582bf2a3622c007b373c847bc",
+          "version": null
+        }
+      },
+      {
+        "package": "WolfWith",
+        "repositoryURL": "https://github.com/wolfmcnally/WolfWith",
+        "state": {
+          "branch": "Swift-5.1",
+          "revision": "0b72186d247d98a098bfcf1face425f94262cc2b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
