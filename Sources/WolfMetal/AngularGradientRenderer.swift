@@ -71,7 +71,8 @@ public class AngularGradientRenderer {
     }()
 
     private static let library: MTLLibrary = {
-        let libPath = Framework.bundle.path(forResource: "default", ofType: "metallib")!
+        let libPath = Bundle.main.path(forResource: "default", ofType: "metallib")!
+//        let libPath = Framework.bundle.path(forResource: "default", ofType: "metallib")!
         return try! device.makeLibrary(filepath: libPath)
     }()
 
