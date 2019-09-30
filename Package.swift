@@ -12,7 +12,7 @@ let package = Package(
             targets: ["WolfMetal"]),
         ],
     dependencies: [
-        .package(url: "https://github.com/wolfmcnally/WolfGraphics", .branch("Swift-5.1")),
+        .package(url: "https://github.com/wolfmcnally/WolfGraphics", from: "1.0.0"),
     ],
     targets: [
         .target(

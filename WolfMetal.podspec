@@ -14,7 +14,7 @@ Utilities and conveniences for Metal for iOS, macOS, and tvOS. Currently the mai
 
   s.swift_version = '5.0'
 
-  s.source_files = 'WolfMetal/Classes/**/*'
+  s.source_files = 'Sources/WolfMetal/**/*'
 
   s.ios.deployment_target = '9.3'
   s.macos.deployment_target = '10.13'
